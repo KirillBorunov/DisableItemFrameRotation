@@ -1,0 +1,4 @@
+name: DisableItemFrameRotation
+main: sososlik.spigot.DisableItemFrameRotation
+version: 1.0
+commands:

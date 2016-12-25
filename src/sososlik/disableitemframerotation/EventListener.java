@@ -16,7 +16,6 @@ public class EventListener implements Listener
 			!event.isCancelled()
 			&& event.getRightClicked() instanceof ItemFrame
 			&& !((ItemFrame)event.getRightClicked()).getItem().getType().equals(Material.AIR) //we dont need to prevent put items into the empty item frame (thats out of scope of this plugin)
-			&& !event.getPlayer().isOp() //ops can do everything
 			&& !event.getPlayer().hasPermission("disableitemframerotation.bypass") //player with this permission can rotate the item frames
 		)
 		{

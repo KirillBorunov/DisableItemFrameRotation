@@ -1,6 +1,6 @@
 name: DisableItemFrameRotation
 main: sososlik.disableitemframerotation.Plugin
-version: 1.1.0
+version: 1.2.0
 author: "Sososlik (sososlik@outlook.com)"
 description: "Prevents players from rotating the item frames with right-click."
 website: https://www.spigotmc.org/resources/disable-item-frame-rotation.33134/
